@@ -11,7 +11,7 @@ setup(
     package_data={
         package: ["py.typed"] for package in find_packages(exclude=["tests"])
     },
-    install_requires=["numpy", "matplotlib"],
+    install_requires=["matplotlib", "numpy", "scipy"],
     entry_points={
         "console_scripts": ["julia_set_visualizer=julia_set_visualizer.main:main"]
     },

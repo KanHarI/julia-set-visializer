@@ -1,22 +1,9 @@
 
-import os
 import sys
 
-import math
-import time as tm
-import pickle as pk
 import numpy as np
 
 from matplotlib import pyplot as plt
-from matplotlib.ticker import PercentFormatter
-from matplotlib import colors
-
-import bfxapi
-import time as tm
-
-import pudb
-
-import csv
 
 THRESHOLD = 3
 
